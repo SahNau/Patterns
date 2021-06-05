@@ -6,12 +6,11 @@ import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class CardTests {
-
     private final DataGenerator dataGenerator = new DataGenerator();
 
     @BeforeEach
     void setUp(){
-        open("http://localhost:9999");
+        open("http://localhost:7777");
     }
 
     @Test
